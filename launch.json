@@ -1,0 +1,24 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "MADToken",
+    "name": "Mutually Assured Destruction",
+    "symbol": "MAD",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xa0df17b5ac76ababa36e1450e2cbcd18a620c845",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {
+    "poolBps": 8000,
+    "initialMarketCapWei": "2000000000000000000000000",
+    "remainderTo": "0x1ee3ffadfe138415a2ddaedeebe5f46616fa413d"
+  },
+  "notes": "MADToken (src/MADToken.sol) is a plain fixed-supply OpenZeppelin ERC-20 named Mutually Assured Destruction, symbol MAD, 18 decimals. Its constructor takes no arguments and mints 1,000,000,000 MAD (1e27 minor units) once to msg.sender, the launch factory. It has no owner, no mint, no burn, no pause, no fees and no transfer restrictions. The launch deploys no application contracts."
+}
